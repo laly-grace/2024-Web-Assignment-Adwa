@@ -1,0 +1,102 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f5ff;
+    color: #333;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(to bottom, #01225c, #7d4cb3);
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin: 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .btn {
+    background-color: #8e44ad; /* Lighter purple */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn:hover {
+    background-color: #7d3c98; /* Darker purple on hover */
+  }
+  
+  /* About Section */
+  .about-section {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .about-section h2 {
+    font-size: 2.5rem;
+    color: #8e44ad; /* Purple */
+  }
+  
+  .about-section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  .info-btn {
+    background-color: #e74c3c; /* Red */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .info-btn:hover {
+    background-color: #c0392b; /* Dark red on hover */
+  }
+  
+  /* Interactive Section */
+  .interactive-section {
+    background-color: #f1c40f; /* Bright yellow */
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .interactive-section h2 {
+    font-size: 2.5rem;
+    color: #8e44ad; /* Purple */
+  }
+  
+  .interactive-section p {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .interactive-section p {
+      font-size: 1rem;
+    }
+  }
+  
